@@ -45,8 +45,8 @@ jobs:
         with:
           name: lab4-${{ matrix.os }}
           path: |
-            build/**/lab4
-            build/**/lab4.exe
+            build/**/physics
+            build/**/physics.exe
           if-no-files-found: error
 
   release:
